@@ -1,7 +1,9 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .game-board {
@@ -23,7 +25,7 @@
 .img-mario {
   bottom:0;
   position: absolute;
-  width: 150px;
+  width: 100px;
 }
 
 .jump {
@@ -34,6 +36,31 @@
   animation: clouds-animation 20s infinite linear;
   position: absolute;
   width: 550px;
+}
+
+.game-over-hidden, .btn-game-over-hidden {
+  display:none;
+}
+
+.btn-restart{
+  left: 50%;
+  padding:1.5rem;
+  position: absolute;
+  top:35%;
+  transform: translateX(-50%)
+}
+.text-game-over {
+  font-size: 3rem;
+  left: 50%;
+  position: absolute;
+  top:50%;
+  transform: translateX(-50%)
+}
+
+.score {
+  position: absolute;
+  right:5%;
+  top: 5%;
 }
 
 @keyframes pipe-animation {

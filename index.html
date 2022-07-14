@@ -5,14 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width='device-width', initial-scale=1.0">
   <link rel="stylesheet" href="./style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <script src="./js/script.js" defer></script>
   <title>Mario Jump</title>
 </head>
 <body>
-  <section class="game-board">
+  <section class="game-board" id="game-board">
     <img src="./images/clouds.png" class="img-clouds" id ="clouds">
     <img src="./images/mario.gif" class="img-mario" id="mario">
     <img src="./images/pipe.png" class="img-pipe" id="pipe">
+    <h1 class="game-over-hidden" id="text-game-over">Game Over</h1>
+    <button class="btn-game-over-hidden" id="btn-restart">Restart</button>
+    <p class="score">Score: <span id="score"></span></p>
   </section>
 </body>
 </html>
