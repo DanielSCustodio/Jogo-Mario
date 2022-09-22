@@ -3,6 +3,8 @@
 
 Jogo do Mario no estilo jump, igual ao do Google Chrome. Utilizando  Vanilla Javascript.
 
+Jogar: https://jogo-mario-w2vp.vercel.app/
+
 ## Futuras Implemetações
 - Login e cadastro.
 - Classificação por pontos.
